@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import s from './App.module.sass'
-function App() {
+import Sidebar from './components/Sidebar/Sidebar';
+
+export default function App() {
   return (<div className="App" >
-    <div className={s.container}>
-      container
-    </div>
+    <Sidebar />
   </div>
   );
 }
 
-export default App;
