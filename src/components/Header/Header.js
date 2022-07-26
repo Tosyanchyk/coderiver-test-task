@@ -2,6 +2,7 @@ import s from './Header.module.sass'
 
 import search from './img/search.svg'
 import notification from './img/notification.svg'
+import profilePhoto from './img/profilePhoto.svg'
 
 export default function Header() {
   return <section className={s.section}>
@@ -24,6 +25,10 @@ export default function Header() {
       </div>
       <div className={s.userInfo}>
         <span>Jones Ferdinand</span>
+        <img
+          src={profilePhoto}
+          alt=''
+        />
       </div>
     </div>
 
