@@ -2,6 +2,7 @@ import React from 'react';
 
 import Sidebar from './components/Sidebar/Sidebar';
 import Header from './components/Header/Header'
+import Statistics from './components/Statistics/Statistics';
 
 import s from './App.module.sass'
 
@@ -13,6 +14,7 @@ export default function App() {
 
     <div className={s.content}>
       <Header />
+      <Statistics />
     </div>
   </div>
   );
